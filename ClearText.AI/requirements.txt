@@ -1,0 +1,29 @@
+# ClearTextAI/
+# │
+# ├── 📁 .streamlit/               # Streamlit config
+# │   └── secrets.toml            # API key securely stored for deployment
+# │
+# ├── 📁 app/                      # All source code
+# │   ├── __init__.py
+# │   ├── simplify.py             # Full document simplification (OpenAI)
+# │   ├── ask_tutor.py            # Sentence-level explain bot (OpenAI)
+# │   ├── glossary.py             # Glossary generation using spaCy + Wikipedia
+# │   └── utils.py                # Any shared helper functions
+# │
+# ├── 📁 assets/                   # For sample documents, logos, etc. (optional)
+# │   ├── sample.txt              # Sample input file
+# │   └── logo.png
+# │
+# ├── app.py                      # Streamlit frontend (UI glue)
+# ├── requirements.txt            # All Python dependencies
+# ├── .env                        # Local secret management (ignored in Git)
+# ├── .gitignore                  # Prevent secrets and unnecessary files from pushing
+# ├── README.md                   # Project overview and usage
+# └── LICENSE         
+
+streamlit
+openai
+spacy
+wikipedia-api
+python-dotenv
+pymupdf
