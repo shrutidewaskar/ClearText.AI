@@ -22,7 +22,6 @@
 # └── LICENSE         
 
 streamlit
-gemini == 2.5
 spacy
 wikipedia-api
 python-dotenv
