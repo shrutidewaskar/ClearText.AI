@@ -22,7 +22,7 @@
 # └── LICENSE         
 
 streamlit
-openai
+gemini 2.5
 spacy
 wikipedia-api
 python-dotenv
